@@ -1,0 +1,3 @@
+f=open("write.txt","w")
+f.write("Important: You need to close a file after the task has been completed to free the resources associated to the file. To do this, you need to call the close() method, like this:")
+f.close()

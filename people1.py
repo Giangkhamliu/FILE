@@ -1,0 +1,5 @@
+f= open("people1.txt")
+# a = f.read()
+# print(a)
+print (f.read())
+f.close()
