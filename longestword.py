@@ -1,13 +1,13 @@
-def longest_word():
-    f=open("write.txt","r")
-    words =f.read().split()
-    i=0
-    max=0
-    max1=""
-    while i<len(words):
-        if len(words[i])>max:
-            max=len(words[i])
-            max1=words[i] 
-        i+=1
-    print(max1)
-longest_word()
+def longest(fname):
+    with open(fname,"r") as f:
+        txt= f.read().split()
+        max=0
+        max1=""
+        i=0
+        while i<len(txt):
+            if len(txt[i])>max:
+               max=len(txt[i])
+               max1=txt[i]
+            i+=1
+        print(max1)
+longest("write.txt")

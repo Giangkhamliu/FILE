@@ -1,0 +1,11 @@
+Wht is Python lnguge?                                                
+Python is  widely used high-level, generl-purpose, interpreted, 
+progrmming lnguge.Its design philosophy emphsizes code redbility,
+nd its syntx llows progrmmers to express concepts in fewer lines of
+code thn possible in lnguges such s C++ or Jv. 
+Python supports multiple progrmming prdigms, including object-oriented,
+impertive nd functionl progrmming or procedurl styles. It fetures  dynmic
+type system nd utomtic memory mngement nd hs  lrge nd comprehensive 
+stndrd librry.The best wy we lern nything is by prctice nd exercise 
+questions. We  hve strted this section for those (beginner to intermedite) 
+who re fmilir with Python.
