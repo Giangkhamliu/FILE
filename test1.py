@@ -1,7 +1,8 @@
-def file(fname, nlines):
-        from itertools import islice
-        with open(fname) as f:
-                for line in islice(f, nlines):
-                        print(line)
-file('test.txt',2)
+def file(fname, n):
+   txt=open(fname)
+   lines=txt.readlines()
+   last_lines=lines[-n::]
+   print(last_lines)
+n=int(input("Enter the lines:-"))
+file('test.txt',n)
 
